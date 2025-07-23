@@ -291,3 +291,346 @@
 2025-07-18 15:10:15,835 - INFO -  - Course Schedule
 2025-07-18 15:10:15,835 - INFO - Scraping URL: https://batestech.smartcatalogiq.com/current/course-catalog/
 2025-07-18 15:10:16,107 - INFO -  - 2025-2026 Course Catalog
+2025-07-22 12:54:00,686 - INFO - Starting classification...
+2025-07-22 12:54:00,686 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 12:54:00,774 - WARNING - Failed to process https://www.cmcc.edu/academics/programs/course-listing//?course-select=1: HTTPSConnectionPool(host='www.cmcc.edu', port=443): Max retries exceeded with url: /academics/programs/course-listing//?course-select=1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-07-22 12:54:00,774 - INFO - → ERROR
+2025-07-22 12:54:00,774 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 12:54:01,155 - WARNING - Failed to process https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=: HTTPSConnectionPool(host='usm.maine.edu', port=443): Max retries exceeded with url: /registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate= (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-07-22 12:54:01,155 - INFO - → ERROR
+2025-07-22 12:54:01,155 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 12:54:02,363 - WARNING - Failed to process https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/: HTTPSConnectionPool(host='umaine.edu', port=443): Max retries exceeded with url: /clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-07-22 12:54:02,364 - INFO - → ERROR
+2025-07-22 12:54:02,364 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 12:54:05,305 - INFO - → HTML_STATIC
+2025-07-22 12:54:05,305 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 12:54:05,681 - WARNING - Failed to process https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/: HTTPSConnectionPool(host='www.yccc.edu', port=443): Max retries exceeded with url: /explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-07-22 12:54:05,682 - INFO - → ERROR
+2025-07-22 12:54:05,682 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 12:54:06,465 - WARNING - Failed to process https://web.newriver.edu/courses/202601/: HTTPSConnectionPool(host='web.newriver.edu', port=443): Max retries exceeded with url: /courses/202601/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-07-22 12:54:06,465 - INFO - → ERROR
+2025-07-22 12:54:06,465 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 12:54:06,751 - WARNING - Failed to process https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?: HTTPSConnectionPool(host='csprd.ctclink.us', port=443): Max retries exceeded with url: /psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-07-22 12:54:06,752 - INFO - → ERROR
+2025-07-22 12:54:06,752 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 12:54:08,252 - WARNING - Failed to process https://www.glenville.edu/academics/course-schedule: HTTPSConnectionPool(host='www.glenville.edu', port=443): Max retries exceeded with url: /academics/course-schedule (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-07-22 12:54:08,253 - INFO - → ERROR
+2025-07-22 12:54:08,253 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 12:54:08,522 - WARNING - Failed to process https://batestech.smartcatalogiq.com/current/course-catalog/: HTTPSConnectionPool(host='batestech.smartcatalogiq.com', port=443): Max retries exceeded with url: /current/course-catalog/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))
+2025-07-22 12:54:08,523 - INFO - → ERROR
+2025-07-22 12:56:18,911 - INFO - Starting classification...
+2025-07-22 12:56:18,912 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 12:56:20,844 - INFO - → HTML_STATIC
+2025-07-22 12:56:20,844 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 12:56:23,317 - INFO - → HTML_STATIC
+2025-07-22 12:56:23,317 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 12:56:26,111 - INFO - → HTML_STATIC
+2025-07-22 12:56:26,112 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 12:56:28,301 - INFO - → HTML_STATIC
+2025-07-22 12:56:28,301 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 12:56:29,938 - INFO - → HTML_STATIC
+2025-07-22 12:56:29,938 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 12:56:40,084 - WARNING - Failed to process https://web.newriver.edu/courses/202601/: HTTPSConnectionPool(host='web.newriver.edu', port=443): Read timed out. (read timeout=10)
+2025-07-22 12:56:40,084 - INFO - → ERROR
+2025-07-22 12:56:40,084 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 12:56:43,146 - INFO - → HTML_STATIC
+2025-07-22 12:56:43,146 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 12:56:44,976 - INFO - → HTML_STATIC
+2025-07-22 12:56:44,976 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 12:56:45,681 - INFO - → HTML_STATIC
+2025-07-22 13:24:08,140 - INFO - Starting classification...
+2025-07-22 13:24:08,140 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:24:11,180 - INFO - → HTML_STATIC
+2025-07-22 13:24:11,180 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 13:24:13,207 - INFO - → HTML_STATIC
+2025-07-22 13:24:13,207 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 13:24:15,850 - INFO - → HTML_STATIC
+2025-07-22 13:24:15,851 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 13:24:18,362 - INFO - → HTML_STATIC
+2025-07-22 13:24:18,362 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 13:24:19,916 - INFO - → HTML_STATIC
+2025-07-22 13:24:19,917 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 13:24:30,728 - WARNING - Failed to process https://web.newriver.edu/courses/202601/: HTTPSConnectionPool(host='web.newriver.edu', port=443): Read timed out. (read timeout=10)
+2025-07-22 13:24:30,729 - INFO - → ERROR
+2025-07-22 13:24:30,729 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 13:24:43,300 - INFO - → HTML_STATIC
+2025-07-22 13:24:43,300 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 13:24:45,606 - INFO - → HTML_STATIC
+2025-07-22 13:24:45,606 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 13:24:46,127 - INFO - → HTML_STATIC
+2025-07-22 13:28:59,351 - INFO - Starting classification...
+2025-07-22 13:28:59,351 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:29:01,447 - INFO - → HTML_STATIC
+2025-07-22 13:29:01,447 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 13:29:48,454 - INFO - Starting classification...
+2025-07-22 13:29:48,454 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:29:48,454 - CRITICAL - Critical error occurred: name 'fetch_and_classify_url' is not defined
+Traceback (most recent call last):
+  File "/Users/e402412/Desktop/Automation_Straive/web-scraping-project/src/main.py", line 159, in main
+    result_type = fetch_and_classify_url(url)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'fetch_and_classify_url' is not defined. Did you mean: 'fetch_and_classify_url_o'?
+2025-07-22 13:30:25,892 - INFO - Starting classification...
+2025-07-22 13:30:25,892 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:30:25,892 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:26,046 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:26,136 - WARNING - Render failed for https://www.cmcc.edu/academics/programs/course-listing//?course-select=1: Could not reach host. Are you offline?
+2025-07-22 13:30:26,136 - INFO - → None
+2025-07-22 13:30:26,136 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 13:30:26,136 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:26,244 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:26,297 - WARNING - Render failed for https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=: Could not reach host. Are you offline?
+2025-07-22 13:30:26,298 - INFO - → None
+2025-07-22 13:30:26,298 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 13:30:26,298 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:26,400 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:26,454 - WARNING - Render failed for https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/: Could not reach host. Are you offline?
+2025-07-22 13:30:26,454 - INFO - → None
+2025-07-22 13:30:26,454 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 13:30:26,454 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:26,560 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:26,616 - WARNING - Render failed for https://www.smccme.edu/academics/courses/current-credit-course-offerings/: Could not reach host. Are you offline?
+2025-07-22 13:30:26,616 - INFO - → None
+2025-07-22 13:30:26,616 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 13:30:26,616 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:26,752 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:26,803 - WARNING - Render failed for https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/: Could not reach host. Are you offline?
+2025-07-22 13:30:26,803 - INFO - → None
+2025-07-22 13:30:26,803 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 13:30:26,803 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:26,895 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:26,945 - WARNING - Render failed for https://web.newriver.edu/courses/202601/: Could not reach host. Are you offline?
+2025-07-22 13:30:26,946 - INFO - → None
+2025-07-22 13:30:26,946 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 13:30:26,946 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:27,046 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:27,106 - WARNING - Render failed for https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?: Could not reach host. Are you offline?
+2025-07-22 13:30:27,106 - INFO - → None
+2025-07-22 13:30:27,106 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 13:30:27,106 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:27,214 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:27,275 - WARNING - Render failed for https://www.glenville.edu/academics/course-schedule: Could not reach host. Are you offline?
+2025-07-22 13:30:27,275 - INFO - → None
+2025-07-22 13:30:27,275 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 13:30:27,275 - INFO - ====== WebDriver manager ======
+2025-07-22 13:30:27,382 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:30:27,442 - WARNING - Render failed for https://batestech.smartcatalogiq.com/current/course-catalog/: Could not reach host. Are you offline?
+2025-07-22 13:30:27,442 - INFO - → None
+2025-07-22 13:31:58,315 - INFO - Starting classification...
+2025-07-22 13:31:58,315 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:31:58,315 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:58,410 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:58,467 - WARNING - Render failed for https://www.cmcc.edu/academics/programs/course-listing//?course-select=1: Could not reach host. Are you offline?
+2025-07-22 13:31:58,467 - INFO - → None
+2025-07-22 13:31:58,467 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 13:31:58,467 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:58,569 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:58,618 - WARNING - Render failed for https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=: Could not reach host. Are you offline?
+2025-07-22 13:31:58,618 - INFO - → None
+2025-07-22 13:31:58,618 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 13:31:58,618 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:58,712 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:58,768 - WARNING - Render failed for https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/: Could not reach host. Are you offline?
+2025-07-22 13:31:58,768 - INFO - → None
+2025-07-22 13:31:58,768 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 13:31:58,768 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:58,874 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:58,960 - WARNING - Render failed for https://www.smccme.edu/academics/courses/current-credit-course-offerings/: Could not reach host. Are you offline?
+2025-07-22 13:31:58,960 - INFO - → None
+2025-07-22 13:31:58,960 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 13:31:58,960 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:59,079 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:59,132 - WARNING - Render failed for https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/: Could not reach host. Are you offline?
+2025-07-22 13:31:59,132 - INFO - → None
+2025-07-22 13:31:59,132 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 13:31:59,132 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:59,228 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:59,303 - WARNING - Render failed for https://web.newriver.edu/courses/202601/: Could not reach host. Are you offline?
+2025-07-22 13:31:59,303 - INFO - → None
+2025-07-22 13:31:59,303 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 13:31:59,303 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:59,413 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:59,468 - WARNING - Render failed for https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?: Could not reach host. Are you offline?
+2025-07-22 13:31:59,468 - INFO - → None
+2025-07-22 13:31:59,468 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 13:31:59,468 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:59,576 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:59,627 - WARNING - Render failed for https://www.glenville.edu/academics/course-schedule: Could not reach host. Are you offline?
+2025-07-22 13:31:59,627 - INFO - → None
+2025-07-22 13:31:59,627 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 13:31:59,627 - INFO - ====== WebDriver manager ======
+2025-07-22 13:31:59,732 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:31:59,803 - WARNING - Render failed for https://batestech.smartcatalogiq.com/current/course-catalog/: Could not reach host. Are you offline?
+2025-07-22 13:31:59,803 - INFO - → None
+2025-07-22 13:35:34,570 - INFO - Starting classification...
+2025-07-22 13:35:34,570 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:35:34,570 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:34,665 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:34,730 - WARNING - Render failed for https://www.cmcc.edu/academics/programs/course-listing//?course-select=1: Could not reach host. Are you offline?
+2025-07-22 13:35:34,731 - INFO - → None
+2025-07-22 13:35:34,731 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 13:35:34,731 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:34,830 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:34,890 - WARNING - Render failed for https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=: Could not reach host. Are you offline?
+2025-07-22 13:35:34,890 - INFO - → None
+2025-07-22 13:35:34,890 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 13:35:34,891 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:34,991 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:36,716 - WARNING - Render failed for https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/: Could not reach host. Are you offline?
+2025-07-22 13:35:36,716 - INFO - → None
+2025-07-22 13:35:36,716 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 13:35:36,717 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:36,857 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:36,911 - WARNING - Render failed for https://www.smccme.edu/academics/courses/current-credit-course-offerings/: Could not reach host. Are you offline?
+2025-07-22 13:35:36,911 - INFO - → None
+2025-07-22 13:35:36,911 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 13:35:36,911 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:37,019 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:37,080 - WARNING - Render failed for https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/: Could not reach host. Are you offline?
+2025-07-22 13:35:37,080 - INFO - → None
+2025-07-22 13:35:37,080 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 13:35:37,081 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:37,194 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:37,250 - WARNING - Render failed for https://web.newriver.edu/courses/202601/: Could not reach host. Are you offline?
+2025-07-22 13:35:37,250 - INFO - → None
+2025-07-22 13:35:37,250 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 13:35:37,250 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:37,361 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:37,428 - WARNING - Render failed for https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?: Could not reach host. Are you offline?
+2025-07-22 13:35:37,428 - INFO - → None
+2025-07-22 13:35:37,428 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 13:35:37,429 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:37,535 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:37,587 - WARNING - Render failed for https://www.glenville.edu/academics/course-schedule: Could not reach host. Are you offline?
+2025-07-22 13:35:37,587 - INFO - → None
+2025-07-22 13:35:37,587 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 13:35:37,587 - INFO - ====== WebDriver manager ======
+2025-07-22 13:35:37,700 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-22 13:35:37,760 - WARNING - Render failed for https://batestech.smartcatalogiq.com/current/course-catalog/: Could not reach host. Are you offline?
+2025-07-22 13:35:37,760 - INFO - → None
+2025-07-22 13:38:55,172 - INFO - Starting classification...
+2025-07-22 13:38:55,173 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:38:57,196 - INFO - → HTML_STATIC
+2025-07-22 13:38:57,196 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 13:38:59,387 - INFO - → HTML_STATIC
+2025-07-22 13:38:59,387 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 13:39:02,233 - INFO - → HTML_STATIC
+2025-07-22 13:39:02,234 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 13:39:04,576 - INFO - → HTML_STATIC
+2025-07-22 13:39:04,576 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 13:39:06,194 - INFO - → HTML_STATIC
+2025-07-22 13:39:06,194 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 13:39:16,282 - WARNING - Failed to process https://web.newriver.edu/courses/202601/: HTTPSConnectionPool(host='web.newriver.edu', port=443): Read timed out. (read timeout=10)
+2025-07-22 13:39:16,282 - INFO - → ERROR
+2025-07-22 13:39:16,283 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 13:39:19,274 - INFO - → HTML_STATIC
+2025-07-22 13:39:19,274 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 13:39:22,182 - INFO - → HTML_STATIC
+2025-07-22 13:39:22,183 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 13:39:22,972 - INFO - → HTML_STATIC
+2025-07-22 13:47:53,090 - INFO - Starting classification...
+2025-07-22 13:47:53,091 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:47:54,970 - INFO - → HTML_STATIC
+2025-07-22 13:47:54,970 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 13:47:56,950 - INFO - → HTML_STATIC
+2025-07-22 13:47:56,950 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 13:47:58,681 - INFO - → HTML_STATIC
+2025-07-22 13:47:58,681 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 13:48:01,300 - INFO - → HTML_STATIC
+2025-07-22 13:48:01,300 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 13:48:02,929 - INFO - → HTML_STATIC
+2025-07-22 13:48:02,929 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 13:48:13,301 - WARNING - Failed to process https://web.newriver.edu/courses/202601/: HTTPSConnectionPool(host='web.newriver.edu', port=443): Read timed out. (read timeout=10)
+2025-07-22 13:48:13,302 - INFO - → ERROR
+2025-07-22 13:48:13,302 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 13:48:16,246 - INFO - → HTML_STATIC
+2025-07-22 13:48:16,246 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 13:48:18,456 - INFO - → HTML_STATIC
+2025-07-22 13:48:18,456 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 13:48:18,915 - INFO - → HTML_STATIC
+2025-07-22 13:49:03,122 - INFO - Starting classification...
+2025-07-22 13:49:03,122 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 13:49:05,002 - INFO - → HTML_STATIC
+2025-07-22 13:49:05,002 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 13:49:06,428 - INFO - → HTML_STATIC
+2025-07-22 13:49:06,428 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 13:49:08,854 - INFO - → HTML_STATIC
+2025-07-22 13:49:08,854 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 13:49:11,204 - INFO - → HTML_STATIC
+2025-07-22 13:49:11,204 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 13:49:13,167 - INFO - → HTML_STATIC
+2025-07-22 13:49:13,167 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 13:49:23,246 - WARNING - Failed to process https://web.newriver.edu/courses/202601/: HTTPSConnectionPool(host='web.newriver.edu', port=443): Read timed out. (read timeout=10)
+2025-07-22 13:49:23,246 - INFO - → ERROR
+2025-07-22 13:49:23,246 - INFO - Processing: https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?
+2025-07-22 13:49:26,140 - INFO - → HTML_STATIC
+2025-07-22 13:49:26,140 - INFO - Processing: https://www.glenville.edu/academics/course-schedule
+2025-07-22 13:49:27,902 - INFO - → HTML_STATIC
+2025-07-22 13:49:27,902 - INFO - Processing: https://batestech.smartcatalogiq.com/current/course-catalog/
+2025-07-22 13:49:28,181 - INFO - → HTML_STATIC
+2025-07-22 14:00:40,601 - ERROR - Error loading URLs: Illegal trailing comma before end of array: line 3 column 83 (char 98)
+2025-07-22 14:00:40,602 - INFO - No URLs to process.
+2025-07-22 14:00:49,244 - INFO - Starting classification...
+2025-07-22 14:00:49,244 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 14:00:51,197 - INFO - → HTML_STATIC
+2025-07-22 14:12:51,009 - INFO - Starting classification...
+2025-07-22 14:12:51,009 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 14:12:52,834 - INFO - → HTML_STATIC
+2025-07-22 14:15:56,876 - INFO - Starting classification...
+2025-07-22 14:15:56,876 - INFO - Processing: https://www.cmcc.edu/academics/programs/course-listing//?course-select=1
+2025-07-22 14:15:59,352 - INFO - → HTML_STATIC
+2025-07-22 14:17:15,211 - INFO - Starting classification...
+2025-07-22 14:17:15,211 - INFO - Processing: https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=
+2025-07-22 14:17:17,339 - INFO - → HTML_STATIC
+2025-07-22 14:28:25,310 - INFO - Starting classification...
+2025-07-22 14:28:25,310 - INFO - Processing: https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/
+2025-07-22 14:28:29,524 - INFO - → HTML_STATIC
+2025-07-22 14:30:03,896 - INFO - Starting classification...
+2025-07-22 14:30:03,896 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 14:30:06,026 - INFO - → HTML_STATIC
+2025-07-22 14:35:06,304 - INFO - Starting classification...
+2025-07-22 14:35:06,304 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 14:35:07,847 - INFO - → HTML_STATIC
+2025-07-22 14:36:06,882 - INFO - Starting classification...
+2025-07-22 14:36:06,882 - INFO - Processing: https://web.newriver.edu/courses/202601/
+2025-07-22 14:36:17,614 - WARNING - Failed to process https://web.newriver.edu/courses/202601/: HTTPSConnectionPool(host='web.newriver.edu', port=443): Read timed out. (read timeout=10)
+2025-07-22 14:36:17,614 - INFO - → ERROR
+2025-07-22 15:47:43,696 - INFO - Starting classification...
+2025-07-22 15:47:43,696 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 15:47:45,687 - INFO - → HTML_STATIC
+2025-07-22 15:48:03,252 - INFO - Starting classification...
+2025-07-22 15:48:03,252 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 15:48:05,032 - INFO - → HTML_STATIC
+2025-07-22 15:50:54,421 - INFO - Starting classification...
+2025-07-22 15:50:54,421 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 15:50:56,353 - INFO - → HTML_STATIC
+2025-07-22 15:54:58,629 - INFO - Starting classification...
+2025-07-22 15:54:58,629 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 15:55:00,281 - INFO - → HTML_STATIC
+2025-07-22 15:55:07,098 - INFO - Starting classification...
+2025-07-22 15:55:07,098 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 15:55:08,520 - INFO - → HTML_STATIC
+2025-07-22 15:57:01,825 - INFO - Starting classification...
+2025-07-22 15:57:01,825 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 15:57:03,516 - INFO - → HTML_STATIC
+2025-07-22 15:57:12,680 - INFO - Starting classification...
+2025-07-22 15:57:12,680 - INFO - Processing: https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/
+2025-07-22 15:57:14,380 - INFO - → HTML_STATIC
+2025-07-22 16:21:05,394 - INFO - Starting classification...
+2025-07-22 16:21:05,394 - INFO - Processing: https://www.cmcc.edu/discover-cmcc/our-campus/campus-directory/
+2025-07-22 16:21:06,344 - INFO - → HTML_STATIC
+2025-07-22 16:21:30,150 - INFO - Starting classification...
+2025-07-22 16:21:30,150 - INFO - Processing: https://www.cmcc.edu/discover-cmcc/our-campus/campus-directory/
+2025-07-22 16:21:31,592 - INFO - → HTML_STATIC
+2025-07-22 16:21:53,084 - INFO - Starting classification...
+2025-07-22 16:21:53,084 - INFO - Processing: https://www.cmcc.edu/discover-cmcc/our-campus/campus-directory/
+2025-07-22 16:21:54,451 - INFO - → HTML_STATIC
+2025-07-22 16:22:31,470 - INFO - Starting classification...
+2025-07-22 16:22:31,470 - INFO - Processing: https://www.cmcc.edu/discover-cmcc/our-campus/campus-directory/
+2025-07-22 16:22:32,360 - INFO - → HTML_STATIC
+2025-07-22 16:40:41,140 - INFO - Starting classification...
+2025-07-22 16:40:41,140 - INFO - Processing: https://www.smccme.edu/academics/courses/current-credit-course-offerings/
+2025-07-22 16:40:43,472 - INFO - → HTML_STATIC
+2025-07-22 16:46:48,246 - INFO - Starting classification...
+2025-07-22 16:46:48,246 - INFO - Processing: https://batestech.smartcatalogiq.com/en/current/course-catalog/program-offerings/accounting/accounting-aast-90-credits-mp/
+2025-07-22 16:46:48,557 - INFO - → HTML_STATIC

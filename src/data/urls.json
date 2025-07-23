@@ -1,13 +1,5 @@
 {
     "urls": [
-        "https://www.cmcc.edu/academics/programs/course-listing//?course-select=1",
-        "https://usm.maine.edu/registration-scheduling-services/course-search/?doClassSearch=1&keywords=&strm=2610&career=UGRD&subject=&courseNumber=&meetingsStartTimeStart=&meetingsStartTimeEnd=&meetingsEndTimeStart=&meetingsEndTimeEnd=&location=&startDate=&endDate=",
-        "https://umaine.edu/clasadvisingcenter/2025/06/12/fall-2025-course-descriptions/",
-        "https://www.smccme.edu/academics/courses/current-credit-course-offerings/",
-        "https://www.yccc.edu/explore/applying-to-yccc/course-schedules/fall-2025-16-week-semester/",
-        "https://web.newriver.edu/courses/202601/",
-        "https://csprd.ctclink.us/psp/csprd/EMPLOYEE/PSFT_CS/s/WEBLIB_HCX_CM.H_CLASS_SEARCH.FieldFormula.IScript_Main?",
-        "https://www.glenville.edu/academics/course-schedule",
-        "https://batestech.smartcatalogiq.com/current/course-catalog/"
+        "https://batestech.smartcatalogiq.com/en/current/course-catalog/program-offerings/accounting/accounting-aast-90-credits-mp/"
     ]
 }
